@@ -1,3 +1,21 @@
+
+body, html
+{
+    cursor: none;
+    overflow: hidden;
+}
+#cursor
+{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: lightgreen;
+    border-radius: 50%;
+
+    filter: drop-shadow(0 0 10px lightgreen);
+
+    z-index: 99;
+}
+
 #headerPage,
 .navHeaderPage
 {
@@ -106,6 +124,8 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    cursor: none;
+
 }
 .articleButtons button
 {
@@ -115,6 +135,8 @@
     border: .1rem solid #fefefe;
     font-size: 1.5rem;
     width: 20rem;
+
+    cursor: none;
 }
 .articleButtons button:hover
 {
