@@ -1,0 +1,122 @@
+#headerPage,
+.navHeaderPage
+{
+    position: absolute;
+    width: 100%;
+    height: 6rem;
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+
+    box-shadow: 2px 2px 15px rgba(66, 66, 66, 0.322);
+    
+}
+
+.sectionsNav
+{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.sectionsNav a
+{
+    text-decoration: none;
+    color: #fefefe86;
+    font-size: 1.5rem;
+}
+.sectionsNav a:hover
+{
+    color: #b1b1b1;
+}
+.sectionsNav:first-child > a::before
+{
+    content: '';
+    position: absolute;
+
+    width: .2rem;
+    height: 0;
+
+    margin-left: -10px;
+
+    background: rgb(6, 165, 218);
+    transition: .3s;
+
+}
+.sectionsNav > a:hover::before
+{
+    height: 1.5em;
+}
+
+.sectionsNav:first-child > a:first-child
+{
+    color: rgb(6, 165, 218);
+}
+
+
+
+                /* content page */
+.contentPage
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background: rgb(26, 25, 25);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contentPage::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+}
+
+.box-apres
+{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin: 15% 0 0 5%;
+    text-align: center;
+}
+.box-apres article h1
+{
+    color: #fafafa;
+    font-size: 6rem;
+    font-family: sans-serif, monospace, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.box-apres article h3
+{
+    color: #fafafa;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.articleButtons
+{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.articleButtons button
+{
+    background: transparent;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    color: #fefefe;
+    border: .1rem solid #fefefe;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+.articleButtons button:hover
+{
+    background: #0000003f;
+}

@@ -1,0 +1,54 @@
+/*Responsive*/
+@media screen and (max-width: 1020px) {
+    .sectionsNav:last-child
+    {
+        margin-left: -15rem;
+    }
+    /* .contentPage
+    {
+        text-align: center;
+    } */
+    .box-apres
+    {
+        margin-left: 50%;
+        transform: translate(-50%,0);
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .sectionsNav:last-child
+    {
+        display: none;
+    }
+    .box-apres
+    {
+        margin-top: 10rem;
+    }
+    .articleButtons button
+    {
+        font-size: 1rem;
+    }
+    .box-apres article h1
+    {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .articleButtons
+    {
+        display: block;
+    }
+    .articleButtons button
+    {
+        width: 10rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    header,
+    .navHeaderPage
+    {
+        display: none;
+    }
+}
