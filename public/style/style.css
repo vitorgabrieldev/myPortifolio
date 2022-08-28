@@ -2,10 +2,19 @@
 /*====================== Css Main =========== =====================*/
 /*=================================================================*/
 
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*
+{
+    font-family: 'Silkscreen', cursive;
+}
+
 body, html
 {
     background: #cfd9e2;
     text-align: center;
+
+    overflow-x: hidden;
 }
 
 header.headerPage
