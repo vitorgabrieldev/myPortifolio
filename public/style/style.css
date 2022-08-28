@@ -2,6 +2,11 @@
 /*====================== Css Main =========== =====================*/
 /*=================================================================*/
 
+body, html
+{
+    background: #cfd9e2;
+}
+
 header.headerPage
 {
     background: #ced8e1;
@@ -73,11 +78,11 @@ header.headerPage
 #RedirectProjects
 {
     border: none;
-    background: #3e4b9d;
+    background: #6964e2;
     color: #fefefe;
-    padding: 1rem;
+    padding: 1rem 3.5rem 1rem 3.5rem;
     font-size: 1.8rem;
-    border-radius: .2rem;
+    border-radius: 2.5rem;
     transition: .3s;
 }
 #RedirectProjects:hover
@@ -85,4 +90,26 @@ header.headerPage
     transform: scale(.9);
     filter: drop-shadow(0 0 20px #3e4b9d);
 
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+}
+
+.cardsContent
+{
+    position: relative;
+    height: 20rem;
+    margin-top: -7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cards
+{
+    background: #6964e2;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem;
 }
