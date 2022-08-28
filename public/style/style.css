@@ -1,0 +1,88 @@
+/*=================================================================*/
+/*====================== Css Main =========== =====================*/
+/*=================================================================*/
+
+header.headerPage
+{
+    background: #ced8e1;
+    position: relative;
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titleMsg a
+{
+    text-decoration: none;
+    color:#0d2c3f;
+    letter-spacing: .1rem;
+}
+
+.function-content 
+{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.function-content i
+{
+    font-size: 1.8rem;
+    color: #0d2c3f;
+    padding: .5rem;
+    border-radius: .7rem;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.function-content i:hover
+{
+    background: #0d2c3f;
+    color: #dadada;
+}
+.detailsContent
+{
+    background: #2c2e2f;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    padding: 2rem;
+
+    display: grid;
+    row-gap: 1.5rem;
+}
+.detailsContent article
+{
+    width: 100%;
+    text-align: center;
+}
+.txt
+{
+    color: #e0e0e0;
+    filter: drop-shadow(0 0 20px #fefefe61);
+}
+.txtlarge
+{
+    font-size: 5rem;
+}
+
+#RedirectProjects
+{
+    border: none;
+    background: #3e4b9d;
+    color: #fefefe;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: .2rem;
+    transition: .3s;
+}
+#RedirectProjects:hover
+{
+    transform: scale(.9);
+    filter: drop-shadow(0 0 20px #3e4b9d);
+
+}
