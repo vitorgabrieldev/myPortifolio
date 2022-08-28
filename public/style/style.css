@@ -5,6 +5,7 @@
 body, html
 {
     background: #cfd9e2;
+    text-align: center;
 }
 
 header.headerPage
@@ -104,12 +105,67 @@ header.headerPage
     height: 20rem;
     margin-top: -7rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.cards
+.cards,
+.cardsLong
 {
     background: #6964e2;
     width: 15rem;
     height: 20rem;
     border-radius: 1rem;
+}
+
+.titleMain
+{
+    font-size: 5rem;
+    text-align: center;
+    font-family: sans-serif; 
+    padding: 3rem;  
+}
+
+.cardsGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.cardsGridSmall
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+}
+.cardsLong
+{
+    margin-left: -9px;
+    width: 35rem;
+}
+
+
+.contentCardsMove
+{
+    background: #2c2e2f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentCardsMove i
+{
+    font-size: 5rem;
+    color: #fefefe;
+    transition: .3s;
+    padding: .3rem;
+    border-radius: .7rem;
+    cursor: pointer;
+}
+.contentCardsMove i:hover
+{
+    transform: scale(.9);
+    color: rgb(42, 38, 38);
+    background: #fefefe;
 }
